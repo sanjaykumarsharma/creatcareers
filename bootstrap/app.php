@@ -17,7 +17,7 @@ $container = $app->getContainer();
 
 
 $container['db']=function($container){
-    $con = new PDO("mysql:dbname=sanjycon_createcareers;host=localhost", 'sanjycon_api' , '}L[q,(-HZ-[+' );
+    $con = new PDO("mysql:dbname=sanjycon_createcareers;host=localhost", 'sanjycon_api' , 'sdsdddd' );
     $con->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     return $con;
 };
